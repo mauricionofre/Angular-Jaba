@@ -5,7 +5,7 @@ require('angular-loading-bar');
 require('bootstrap');
 require('angular-i18n/angular-locale_pt-br');
 
-var app = angular.module('nddResearchAppSeed', [
+var app = angular.module('jabaApp', [
     'cfp.loadingBar',
     'ngLocale',
     require('oclazyload'),

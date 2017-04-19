@@ -1,0 +1,43 @@
+@import 'variables';
+@import 'placeholders/clear-fix';
+
+.navbar-jaba {
+  height: $navbar-height;
+  background: $navbar-bg-color;
+  padding: 8px 0;
+  padding-bottom: 0;
+  .navbar-brand {
+      padding: 7px 0px;
+      margin:0;
+      font-size: 36px;
+      color: $primary-color;
+    }
+}
+
+.navbar-nav li{
+  margin-left: 35px;
+  padding-bottom: 28px;
+}
+
+.navbar-jaba .navbar-nav li a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  color: $primary-color;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.navbar-jaba .navbar-nav li a:hover{
+	background-color: $navbar-bg-color-hover;
+  color: $primary-color;
+  transition: color 200ms, background-color 300ms;
+  cursor: pointer;
+}
+
+.navbar-jaba .navbar-collapse,
+.navbar-jaba .navbar-form {
+  border-top: 0;
+  padding-bottom: 0;
+}
+
